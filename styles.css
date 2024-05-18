@@ -1,0 +1,39 @@
+body{
+    border: 2px solid white; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:black;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: auto;
+    width: 50%;
+    height: 96vh;  
+}
+.result{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+   color: #888;
+   >div{
+    margin: 5px;
+   }
+}
+#cityName, button{
+    padding: 10px;
+    border-radius: 20px;
+}
+button{
+    cursor: pointer;
+}
+span{
+    color: beige;
+}
